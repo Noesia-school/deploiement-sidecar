@@ -39,6 +39,16 @@ isolé, avec des données d’exercice.
 
 Ne partage ni secrets, ni données clients, ni contenu sensible.
 
+## Des repères qui évoluent
+
+Les fiches du compagnon sont complétées au fil de la publication du cours.
+Sidecar tente de les actualiser au début d’une conversation, si ton outil le
+permet et sans forcer ni écraser tes modifications ou ta mémoire. Tu peux lui
+demander de ne pas le faire ; sinon, en cas d’échec, il continue avec la copie disponible.
+
+Si les derniers contenus n’apparaissent pas, tu peux aussi ouvrir un terminal
+dans le dossier Sidecar et lancer `git pull` pour actualiser ta copie.
+
 ## Une mémoire à ta main
 
 Sidecar garde au fil des échanges quelques repères utiles dans `MEMORY.md` :
