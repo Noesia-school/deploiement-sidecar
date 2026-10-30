@@ -38,3 +38,19 @@ La pratique accompagnée reste dans un environnement pédagogique
 isolé, avec des données d’exercice.
 
 Ne partage ni secrets, ni données clients, ni contenu sensible.
+
+## Une mémoire à ta main
+
+Sidecar garde au fil des échanges quelques repères utiles dans `MEMORY.md` :
+comment t’appeler, te tutoyer ou te vouvoyer, ton environnement,
+tes objectifs et où tu en es dans le cours. Cela aide à reprendre le fil
+et à adapter les explications, sans ramener chaque réponse à ton projet.
+
+Tu peux consulter ou modifier ce fichier, demander une correction, exclure
+un sujet ou demander à Sidecar d’arrêter de mémoriser et d’oublier des repères.
+Ce n’est ni un historique de conversation ni une évaluation de ton niveau.
+
+Ce fichier local est ignoré par Git, mais son contenu peut être transmis au
+fournisseur du modèle lorsqu’il est lu. L’exclusion de Git n’empêche pas les
+sauvegardes ou synchronisations par d’autres outils : n’y mets rien de sensible.
+Supprimer la mémoire n’efface pas les conversations ni les données déjà transmises.
