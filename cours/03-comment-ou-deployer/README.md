@@ -1,12 +1,21 @@
 # Cadrer et choisir son déploiement
 
-Chapitre pas encore publié.
+Les repères détaillés sont disponibles pour :
 
-Les axes ci-dessous donnent les grandes lignes envisagées ; leur ordre et leur regroupement pourront évoluer.
+- [3.1 — Cadrer le service : exigences et risques](01-service-production-et-risques/contenu.md)
+- [3.2 — Comprendre les modèles d’hébergement et les responsabilités](02-modeles-hebergement-et-responsabilites/contenu.md)
 
-**Passer d’une application à un service exploitable.** Le chapitre abordera ce qui change lorsqu’un tiers dépend du fonctionnement d’une application. Il introduira une manière simple de raisonner sur les risques en reliant leur probabilité, leurs conséquences et les réponses possibles. L’objectif sera de choisir des protections proportionnées et de reconnaître les risques qui subsistent, plutôt que de rechercher une production parfaite.
+## Vidéo 3.1 — Contenu couvert
 
-**Comprendre les modèles d’hébergement.** Plateforme managée, VPS et environnement interne du client seront comparés selon ce qu’ils prennent en charge et les responsabilités qu’ils laissent à l’intervenant. Une autre distinction portera sur ce que reçoit la plateforme : du code qu’elle construit ou une image déjà préparée. Ces modèles seront présentés comme des choix adaptés à des contraintes différentes, sans faire du VPS un passage obligé ni du managé une solution moins professionnelle.
+**Cadrer les exigences et les risques.** Préparer la reprise avant la panne et relier ses conséquences à l’usage du service ; distinguer exigences fonctionnelles et non fonctionnelles, puis préciser les attentes avec le client. Identifier les risques, estimer leur probabilité et leur impact, discuter leur acceptabilité, choisir une réponse et prévoir les contrôles. La vidéo présente les quatre réponses — accepter, éviter, réduire, transférer — ainsi que la distinction délégation/transfert, le risque résiduel et la nécessité de réexaminer l’analyse. Un cas fictif de dépassement de budget LLM fait réfléchir aux arbitrages à anticiper sans imposer une solution unique.
+
+## Vidéo 3.2 — Contenu couvert
+
+**Répartir l’exploitation.** Comparer VPS, plateforme managée et environnement client selon les couches prises en charge, la liberté disponible et le travail d’entretien. Déléguer une base de données est possible sans déléguer toute l’application ; une interface comme Coolify simplifie les gestes sans remplacer l’exploitation. La vidéo distingue aussi construction à partir du code et livraison d’une image OCI, puis précise les rôles techniques, l’autorisation des interventions et la coordination entre acteurs.
+
+## Suite du chapitre — Aperçu prévisionnel
+
+Les axes ci-dessous restent les grandes lignes envisagées, pas des acquis détaillés dans ce compagnon ; leur ordre et leur regroupement pourront évoluer. Les vidéos disponibles ne choisissent pas encore l’hébergement d’un projet et ne développent pas la méthode de documentation des arbitrages.
 
 **Choisir sans surdimensionner.** Le choix d’hébergement sera relié aux besoins actuels, à l’évolution plausible du service et aux compétences disponibles pour l’exploiter. Le coût sera examiné au-delà du prix affiché, en tenant compte du temps d’exploitation et des conséquences des raccourcis techniques. Il s’agira de retenir une solution proportionnée et de reconnaître les conditions qui pourraient conduire à la réviser.
 
