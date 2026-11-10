@@ -1,6 +1,6 @@
 # Repères du module Déploiement
 
-Les repères détaillés couvrent le replay de présentation du 13 octobre 2026, la vidéo 1.3, les vidéos 2.1 à 2.3, les vidéos 3.1 et 3.2 et la [ressource WSL](../ressources/installer-wsl.md). Le reste du programme conserve seulement des aperçus prévisionnels.
+Les repères détaillés couvrent le replay de présentation du 13 octobre 2026, la vidéo 1.3, les vidéos 2.1 à 2.3, les vidéos 3.1 à 3.3 et la [ressource WSL](../ressources/installer-wsl.md). Le reste du programme conserve seulement des aperçus prévisionnels.
 
 Chaque vidéo rassemble ses explications et, lorsque c’est utile, ses exemples de commandes. Les ressources communes à un chapitre se cherchent dans ce chapitre ; les ressources transversales sont dans [`ressources/`](../ressources/).
 
@@ -20,6 +20,7 @@ Le replay du live du 13 octobre 2026 est conservé entier, puis complété par l
 ## 3 — Cadrer et choisir son déploiement
 - [3.1 — Cadrer le service : exigences et risques](03-comment-ou-deployer/01-service-production-et-risques/contenu.md)
 - [3.2 — Comprendre les modèles d’hébergement et les responsabilités](03-comment-ou-deployer/02-modeles-hebergement-et-responsabilites/contenu.md)
+- [3.3 — Choisir sans surdimensionner](03-comment-ou-deployer/03-choisir-sans-surdimensionner/contenu.md)
 - [Aperçu du chapitre](03-comment-ou-deployer/README.md)
 
 ## 4 — Conteneuriser une application avec Docker

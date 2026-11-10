@@ -4,6 +4,7 @@ Les repères détaillés sont disponibles pour :
 
 - [3.1 — Cadrer le service : exigences et risques](01-service-production-et-risques/contenu.md)
 - [3.2 — Comprendre les modèles d’hébergement et les responsabilités](02-modeles-hebergement-et-responsabilites/contenu.md)
+- [3.3 — Choisir sans surdimensionner](03-choisir-sans-surdimensionner/contenu.md)
 
 ## Vidéo 3.1 — Contenu couvert
 
@@ -13,10 +14,12 @@ Les repères détaillés sont disponibles pour :
 
 **Répartir l’exploitation.** Comparer VPS, plateforme managée et environnement client selon les couches prises en charge, la liberté disponible et le travail d’entretien. Déléguer une base de données est possible sans déléguer toute l’application ; une interface comme Coolify simplifie les gestes sans remplacer l’exploitation. La vidéo distingue aussi construction à partir du code et livraison d’une image OCI, puis précise les rôles techniques, l’autorisation des interventions et la coordination entre acteurs.
 
+## Vidéo 3.3 — Contenu couvert
+
+**Choisir sans surdimensionner.** Un assistant documentaire fictif, distinct d’InterNote, relie simultanéité, dimensionnement, coût humain d’un incident, limites de l’offre, migration, TCO et dette technique. La vidéo distingue vertical et horizontal, prestation dédiée et SaaS mutualisé, puis recommande conditionnellement le managé pour ce cas. La proposition de l’agent reste à challenger ; un engagement critique demande les compétences et intervenants adaptés. La difficulté des écritures distribuées est laissée à approfondir avec le sidecar, sans enseignement de construction d’une architecture distribuée.
+
 ## Suite du chapitre — Aperçu prévisionnel
 
-Les axes ci-dessous restent les grandes lignes envisagées, pas des acquis détaillés dans ce compagnon ; leur ordre et leur regroupement pourront évoluer. Les vidéos disponibles ne choisissent pas encore l’hébergement d’un projet et ne développent pas la méthode de documentation des arbitrages.
-
-**Choisir sans surdimensionner.** Le choix d’hébergement sera relié aux besoins actuels, à l’évolution plausible du service et aux compétences disponibles pour l’exploiter. Le coût sera examiné au-delà du prix affiché, en tenant compte du temps d’exploitation et des conséquences des raccourcis techniques. Il s’agira de retenir une solution proportionnée et de reconnaître les conditions qui pourraient conduire à la réviser.
+La documentation des arbitrages reste une grande ligne envisagée, pas un acquis détaillé dans ce compagnon. La conclusion de 3.3 annonce l’application à InterNote ; les vidéos disponibles n’en décident pas l’hébergement et ne développent pas encore la méthode documentaire.
 
 **Documenter dès le cadrage.** La documentation sera envisagée comme un support de transmission qui explique le service, ses dépendances et les décisions prises. Elle conservera les raisons des choix, leurs limites, les hypothèses à confirmer et les raccourcis acceptés, sans contenir de secrets. Ce socle sera enrichi pendant le projet afin qu’une autre personne puisse comprendre le système et reprendre son exploitation.
