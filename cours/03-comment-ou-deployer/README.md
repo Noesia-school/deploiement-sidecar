@@ -5,6 +5,7 @@ Les repères détaillés sont disponibles pour :
 - [3.1 — Cadrer le service : exigences et risques](01-service-production-et-risques/contenu.md)
 - [3.2 — Comprendre les modèles d’hébergement et les responsabilités](02-modeles-hebergement-et-responsabilites/contenu.md)
 - [3.3 — Choisir sans surdimensionner](03-choisir-sans-surdimensionner/contenu.md)
+- [3.4 — Documenter dès le départ](04-documenter-des-le-depart/contenu.md)
 
 ## Vidéo 3.1 — Contenu couvert
 
@@ -18,8 +19,10 @@ Les repères détaillés sont disponibles pour :
 
 **Choisir sans surdimensionner.** Un assistant documentaire fictif, distinct d’InterNote, relie simultanéité, dimensionnement, coût humain d’un incident, limites de l’offre, migration, TCO et dette technique. La vidéo distingue vertical et horizontal, prestation dédiée et SaaS mutualisé, puis recommande conditionnellement le managé pour ce cas. La proposition de l’agent reste à challenger ; un engagement critique demande les compétences et intervenants adaptés. La difficulté des écritures distribuées est laissée à approfondir avec le sidecar, sans enseignement de construction d’une architecture distribuée.
 
-## Suite du chapitre — Aperçu prévisionnel
+## Vidéo 3.4 — Contenu couvert
 
-La documentation des arbitrages reste une grande ligne envisagée, pas un acquis détaillé dans ce compagnon. La conclusion de 3.3 annonce l’application à InterNote ; les vidéos disponibles n’en décident pas l’hébergement et ne développent pas encore la méthode documentaire.
+**Documenter dès le cadrage.** Distinguer documentation technique, PV des échanges et ADR des décisions ; confirmer les accords, relire les propositions de l’agent et conserver les raisons comme l’historique des choix. La démonstration structure la documentation d’InterNote, introduit le réflexe ADR puis applique le cadrage à un scénario fictif. Après discussion, cinq fiches distinguent SQLite, hébergement managé du monolithe, API IA économique, exploitation/reprise et stockage objet pour les pièces jointes futures. Ce sont des orientations documentées, pas un déploiement ni des garanties vérifiées.
 
-**Documenter dès le cadrage.** La documentation sera envisagée comme un support de transmission qui explique le service, ses dépendances et les décisions prises. Elle conservera les raisons des choix, leurs limites, les hypothèses à confirmer et les raccourcis acceptés, sans contenir de secrets. Ce socle sera enrichi pendant le projet afin qu’une autre personne puisse comprendre le système et reprendre son exploitation.
+## Bilan du chapitre
+
+Les quatre vidéos relient besoins, exigences, risques, responsabilités, proportion et documentation. Le chapitre est clos ; les repères détaillés couvrent 3.1 à 3.4. La documentation doit évoluer avec le projet, en distinguant faits, propositions, décisions acceptées et contrôles restant à réaliser. Aucun accord client réel ni résultat d’exploitation n’est déduit du scénario pédagogique.
